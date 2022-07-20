@@ -1,0 +1,48 @@
+.nav{
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav a{
+    color: inherit;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    
+  }
+  .nav li:active{
+    background-color:#696a6b;
+    color:rgb(245, 98, 122)
+  }
+  .nav li>a:hover{
+    background-color:#696a6b;
+    
+  }
+  .nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .card {
+    display: flex;
+    flex-direction:column ;
+  }
+.item{
+    display: flex;
+    gap: 2rem;
+}
+.movie{
+    background-color: #696a6b;
+    width: 300px;
+    height: 300px;
+}
+  .card ul,li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+  }
+  
